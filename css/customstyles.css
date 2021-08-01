@@ -1,0 +1,45 @@
+:root {
+    --darkgreen: #64a19d;
+    --brown: #8a746e;
+    --darkgrey: #555259;
+    --grey: #adb3a7;
+  }
+
+.member {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    }
+
+
+  .memberimage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    background-color: var(--darkgreen);
+    width: 100%;
+    transition: 0.5s ease;
+    height: 400px;
+  }
+
+  .hovertext {
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .member:hover .overlay {
+    height: 20%;
+  }
+
+  .btn-c {
+    width: auto;
+  }
