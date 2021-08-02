@@ -8,7 +8,7 @@
 .member {
     position: relative;
     width: 350px;
-    height: 400px;
+
     }
 
 
@@ -24,7 +24,7 @@
     background-color: var(--darkgreen);
     width: 100%;
     transition: 0.5s ease;
-    height: 400px;
+    height: 0;
   }
 
   .hovertext {
