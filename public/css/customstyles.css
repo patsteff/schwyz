@@ -46,3 +46,7 @@
   .logo {
     max-height: 300px;
   }
+
+  a.linkheader {
+    text-decoration: none;
+  }
