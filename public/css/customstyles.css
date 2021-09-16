@@ -48,5 +48,5 @@
   }
 
   a.linkheader {
-    text-decoration: none;
+    text-decoration: none !important; 
   }
