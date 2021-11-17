@@ -47,6 +47,6 @@
     max-height: 300px;
   }
 
-  a.linkheader {
+  .linkheader {
     text-decoration: none !important; 
   }
