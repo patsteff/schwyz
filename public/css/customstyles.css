@@ -50,3 +50,11 @@
   .linkheader {
     text-decoration: none !important; 
   }
+
+  .text-red {
+    color: red;
+  }
+
+  .text-strikethrough {
+    text-decoration: line-through;
+    }
