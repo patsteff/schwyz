@@ -58,3 +58,7 @@
   .text-strikethrough {
     text-decoration: line-through;
     }
+
+    i {
+      color: #d17d94;
+    }
