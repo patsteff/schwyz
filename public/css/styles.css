@@ -7613,8 +7613,16 @@ textarea.form-control-lg {
   background-color: #f8f9fa !important;
 }
 
-.bg-dark {
+.bg-grey {
   background-color: #cec2b8 !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.bg-brown {
+  background-color: #b27e68 !important;
 }
 
 .bg-black {
