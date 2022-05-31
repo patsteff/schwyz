@@ -65,3 +65,8 @@
 
 
   .responsive-img {  width: 100%;  height: auto; } 
+
+
+  .verein a {
+    text-decoration: none;
+  }
