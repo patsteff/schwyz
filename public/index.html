@@ -23,6 +23,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/customstyles.css" rel="stylesheet" />
     <script src="https://unpkg.com/phosphor-icons@1.2.0"></script>
+    <script src="js/customscript.js" defer></script>
     <script id="mcjs">
       !(function (c, h, i, m, p) {
         (m = c.createElement(h)),
@@ -270,9 +271,37 @@
                       <i class="ph-calendar-blank"></i>
                     </div>
                     <div class="col-sm-9 col-md-8 text-start">
-                      27.08.2022, Ganzer Tag
+                      27.08.2022, Ganzer Tag: <button class="modalbutton" id="myPBtn">Programm</button>
                     </div>
                   </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Ablauf Schönwettervariante</h3>
+    <p class="paramodal">11.10 Bahn Schlattli – Stoos</p>
+    <p class="paramodal">Anschliessend Auftritt Stoos Hüttä</p>
+    <p class="paramodal">Ca. 14.00 Stoos Seeli</p>
+    <p class="paramodal">Ca. 15.30 Stoosplatz</p>
+    <p class="paramodal">Ca. 17:00 Fronalpstock mit Andrea</p>
+    <p class="paramodal">Später Fronalpstock Acapella. Schluss spätestens 20:30 auf dem Fronalpstock
+      </p>
+      <h3 class="h3modal">Ablauf Schlechtwettervariante</h3>
+      <p class="paramodal">11.10 Bahn Schlattli – Stoos</p>
+      <p class="paramodal">Anschliessend Auftritt Stoos Hüttä</p>
+      <p class="paramodal">Ca. 14.00 Sternegg</p>
+      <p class="paramodal">Ca. 15.00 Alpstubli</p>
+      <p class="paramodal">Anschliessend Fronalpstock mit Andrea</p>
+      <p class="paramodal">Später Fronalpstock Acapella. Schluss spätestens 20:30 auf dem Fronalpstock
+        </p>
+  </div>
+
+</div>
+
+</div>
 
                   <div class="w-100 d-flex">
                     <div class="col-sm-3 col-md-4 text-end mx-3">
@@ -286,7 +315,6 @@
                       >
                     </div>
                   </div>
-
                   <div class="w-100 d-flex">
                     <div class="col-sm-3 col-md-4 text-end mx-3">
                       <i class="ph-map-pin"></i>
@@ -326,14 +354,18 @@
                     <div class="col-sm-3 col-md-4 text-end mx-3">
                       <i class="ph-ticket"></i>
                     </div>
-                    <div class="col-sm-9 col-md-8 text-start">Infos folgen</div>
+                    <div class="col-sm-9 col-md-8 text-start">
+                      Mehr Infos <a href="https://www.jamfo.ch/">hier</a>
+                    </div>
                   </div>
 
                   <div class="w-100 d-flex">
                     <div class="col-sm-3 col-md-4 text-end mx-3">
                       <i class="ph-map-pin"></i>
                     </div>
-                    <div class="col-sm-9 col-md-8 text-start">Schwyz</div>
+                    <div class="col-sm-9 col-md-8 text-start">
+                      Hauptplatz, Schwyz
+                    </div>
                   </div>
                 </div>
               </div>
