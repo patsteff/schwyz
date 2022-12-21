@@ -127,3 +127,14 @@
 .h3modal {
   margin-top: 24px;
 }
+
+.youtube {
+  width: 600px;
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .youtube {
+    width: 100%;
+  }
+}
