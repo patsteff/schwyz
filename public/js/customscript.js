@@ -13,7 +13,8 @@ createApp({
           when: 'Samstag 17. Juni 2023, 17-23 Uhr',
           costs: 'Infos folgen',
           where: 'Reformierte Kirche Wädenswil',
-          img: './assets/img/concerts/smaller/klang_600.jpg'
+          img: './assets/img/concerts/smaller/klang_600.jpg',
+          imgalt: 'Foto vom Klang 2019'
         },
         {
           title: 'Chornacht im Gaswerk',
@@ -21,7 +22,8 @@ createApp({
           when: 'Freitag 1. September 2023, 20 Uhr',
           costs: 'Infos folgen',
           where: 'Gaswerk Seewen',
-          img: './assets/img/concerts/smaller/kulturschock2_600.jpg'
+          img: './assets/img/concerts/smaller/kulturschock2_600.jpg',
+          imgalt: 'Foto vom Kulturschock im Gaswerk'
         },
         {
           title: 'Muotitaler Alpchäsmärcht',
@@ -29,7 +31,8 @@ createApp({
           when: 'Samstag 28. Oktober 2023',
           costs: 'Infos folgen',
           where: 'Muotathal',
-          img: './assets/img/concerts/smaller/muotathal.jpg'
+          img: './assets/img/concerts/smaller/muotathal.jpg',
+          imgalt: 'Foto Käsemarkt'
         },
         
         
