@@ -64,7 +64,11 @@
     }
 
 
-  .responsive-img {  width: 100%;  height: auto; } 
+  .responsive-img {  
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    height: auto; } 
 
 
   .verein a {
