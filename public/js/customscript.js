@@ -28,7 +28,7 @@ createApp({
         {
           title: 'Muotitaler Alpchäsmärcht',
           description: 'Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello',
-          when: 'Samstag 28. Oktober 2023',
+          when: 'Samstag 28. Oktober 2023 ab 20 Uhr',
           costs: 'Infos folgen',
           where: 'Muotathal',
           img: './assets/img/concerts/smaller/muotathal.jpg',
