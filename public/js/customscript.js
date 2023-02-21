@@ -1,28 +1,42 @@
 console.log("test");
 
-// Get the modal
-const modal = document.getElementById("myModal");
+const { createApp } = Vue
 
-// Get the button that opens the modal
-const btn = document.querySelector("#myPBtn");
-console.log(btn);
+createApp({
+  data() {
+    return {
+      message: 'Hello Vue!',
+      concerts: [
+        {
+          title: 'Klang23 das Musikfestival',
+          description: 'Mit Esther Lenherr am Klavier.',
+          when: 'Samstag 17. Juni 2023, 17-23 Uhr',
+          costs: 'Infos folgen',
+          where: 'Reformierte Kirche Wädenswil',
+          img: './assets/img/concerts/smaller/klang_600.jpg'
+        },
+        {
+          title: 'Chornacht im Gaswerk',
+          description: 'Mit Vocabular und dem Männderchor Schwyz',
+          when: 'Freitag 1. September 2023, 20 Uhr',
+          costs: 'Infos folgen',
+          where: 'Gaswerk Seewen',
+          img: './assets/img/concerts/smaller/kulturschock2_600.jpg'
+        },
+        {
+          title: 'Muotitaler Alpchäsmärcht',
+          description: 'Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello',
+          when: 'Samstag 28. Oktober 2023',
+          costs: 'Infos folgen',
+          where: 'Muotathal',
+          img: './assets/img/concerts/smaller/muotathal.jpg'
+        },
+        
+        
 
-// Get the <span> element that closes the modal
-const span = document.getElementsByClassName("close")[0];
+      ]
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+    }
   }
-}
+}).mount('#app')
+
