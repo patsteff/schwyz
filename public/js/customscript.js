@@ -10,7 +10,7 @@ createApp({
         {
           title: 'Klang23 das Musikfestival',
           description: 'Mit Esther Lenherr am Klavier.',
-          when: 'Samstag 17. Juni 2023, 17-23 Uhr',
+          when: 'Samstag 17. Juni 2023, 17 Uhr',
           costs: 'Infos folgen',
           where: 'Reformierte Kirche Wädenswil',
           img: './assets/img/concerts/smaller/klang_600.jpg',
