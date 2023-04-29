@@ -20,9 +20,9 @@ createApp({
           title: 'Chornacht im Gaswerk',
           description: 'Mit Vocabular und dem Männerchor Schwyz',
           when: 'Freitag 1. September 2023, 20 Uhr',
-          costs: 'Infos folgen',
+          costs: 'Infos folgen', 
           where: 'Gaswerk Seewen',
-          img: './assets/img/concerts/smaller/kulturschock2_600.jpg',
+          img: './assets/img/concerts/smaller/kulturschock2_600copy.jpg',
           imgalt: 'Foto vom Kulturschock im Gaswerk'
         },
         {
