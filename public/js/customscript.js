@@ -24,7 +24,7 @@ createApp({
           costs: 'Tickets Website Gaswerk',
           link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/nacht-der-choere/',
           where: 'Gaswerk Seewen',
-          img: './assets/img/concerts/smaller/nachtchoere',
+          img: './assets/img/concerts/smaller/nachtchoere.jpg',
           imgalt: 'Foto vom Kulturschock im Gaswerk'
         },
         {
