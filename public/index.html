@@ -236,7 +236,9 @@
                         <i class="ph-ticket"></i>
                       </div>
                       <div class="col-sm-9 col-md-8 text-start">
-                        {{concert.costs}}
+                        <a :href="concert.link" target="_blank"
+                          >{{concert.costs}}</a
+                        >
                       </div>
                     </div>
 
