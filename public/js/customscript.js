@@ -14,7 +14,7 @@ createApp({
           costs: 'Mehr Infos auf der Website Klang23',
           link: 'https://www.klang-dasfestival.ch/',
           where: 'Reformierte Kirche Wädenswil',
-          img: './assets/img/concerts/smaller/klang_600.jpg',
+          img: './assets/img/concerts/smaller/23/klang23_flyer.jpg',
           imgalt: 'Foto vom Klang 2019'
         },
         {
