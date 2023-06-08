@@ -40,7 +40,7 @@ createApp({
         {
           title: 'Whisky On Ice 2024',
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
-          when: 'Sonntag 14. April 2023',
+          when: 'Sonntag 14. April 2024',
           costs: 'Weitere Infos folgen',
           link: '',
           where: 'Schuler Vinothek Seewen',
@@ -50,7 +50,7 @@ createApp({
         {
           title: 'Whisky On Ice 2024',
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
-          when: 'Freitag 19. April 2023',
+          when: 'Freitag 19. April 2024',
           costs: 'Weitere Infos folgen',
           link: '',
           where: 'Gaswerk Seewen',
