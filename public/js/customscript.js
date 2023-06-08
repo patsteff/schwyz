@@ -14,8 +14,8 @@ createApp({
           costs: 'Mehr Infos auf der Website Klang23',
           link: 'https://www.klang-dasfestival.ch/',
           where: 'Reformierte Kirche Wädenswil',
-          img: './assets/img/concerts/smaller/23/klang23_flyer.jpg',
-          imgalt: 'Foto vom Klang 2019'
+          img: './assets/img/concerts/23/klang23_flyer.jpeg',
+          imgalt: 'Flyer Klang 23'
         },
         {
           title: 'Chornacht im Gaswerk',
@@ -36,6 +36,26 @@ createApp({
           where: 'Muotathal',
           img: './assets/img/concerts/smaller/muotathal.jpg',
           imgalt: 'Foto Käsemarkt'
+        },
+        {
+          title: 'Whisky On Ice 2024',
+          description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
+          when: 'Sonntag 14. April 2023',
+          costs: 'Weitere Infos folgen',
+          link: '',
+          where: 'Schuler Vinothek Seewen',
+          img: './assets/img/concerts/23/templebar_600.jpg',
+          imgalt: 'Foto Templebar'
+        },
+        {
+          title: 'Whisky On Ice 2024',
+          description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
+          when: 'Freitag 19. April 2023',
+          costs: 'Weitere Infos folgen',
+          link: '',
+          where: 'Gaswerk Seewen',
+          img: './assets/img/concerts/23/templebar_600.jpg',
+          imgalt: 'Foto Templebar'
         },
         
         
