@@ -41,7 +41,7 @@ createApp({
           imgalt: 'Foto Käsemarkt'
         },
         {
-          title: 'Whisky On Ice 2024',
+          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch',
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
           when: 'Samstag 13. April 2024',
           costs: 'Weitere Infos folgen. Ticketverkauf voraussichtlich am Herbst 2023.',
@@ -52,7 +52,7 @@ createApp({
           imgalt: 'Foto Templebar'
         },
         {
-          title: 'Whisky On Ice 2024',
+          title: 'Whisky On Ice 2024 - schottisch, irisch, keltisch, englisch',
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
           when: 'Freitag 19. April 2024',
           costs: 'Weitere Infos folgen. Ticketverkauf voraussichtlich am Herbst 2023.',
