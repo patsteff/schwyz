@@ -62,11 +62,33 @@ createApp({
           img: './assets/img/concerts/23/templebar_600.jpg',
           imgalt: 'Foto Templebar'
         },
-        
-        
-
+      ],
+      pastconcerts: [
+        {
+          title: 'Kurzkonzerte Advents- und Weihnachtslieder',
+          description: 'Am 18. Dezember 2022 sangen wir im Talkessel Schwyz an vier                   Orten Weihnachtslieder und stimmten auf die Festtage ein. Fotos folgen.',
+          when: 'Samstag 17. Juni 2023, 14 Uhr',
+          costs: '',
+          linkAvailable: false,
+          link: '',
+          where: '',
+          img: './assets/img/concerts/smaller/postcard.jpg',
+          imgalt: 'Kurzkonzerte 22',
+          past: 'Am 18. Dezember 2022 sangen wir im Talkessel Schwyz an vier                   Orten Weihnachtslieder und stimmten auf die Festtage ein. Fotos folgen.'
+        },
+        {
+          title: 'TESTs- und Weihnachtslieder',
+          description: 'Am 18. Dezember 2022 sangen wir im Talkessel Schwyz an vier                   Orten Weihnachtslieder und stimmten auf die Festtage ein. Fotos folgen.',
+          when: 'Samstag 17. Juni 2023, 14 Uhr',
+          costs: '',
+          linkAvailable: false,
+          link: '',
+          where: '',
+          img: './assets/img/concerts/smaller/postcard.jpg',
+          imgalt: 'Kurzkonzerte 22',
+          past: 'Am 18. Dezember 2022 sangen wir im Talkessel Schwyz an vier                   Orten Weihnachtslieder und stimmten auf die Festtage ein. Fotos folgen.'
+        }
       ]
-
     }
   }
 }).mount('#app')
