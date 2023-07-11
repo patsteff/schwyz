@@ -8,17 +8,6 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Klang23 das Musikfestival',
-          description: 'Mit Esther Lenherr am Klavier.',
-          when: 'Samstag 17. Juni 2023, 14 Uhr',
-          costs: 'Mehr Infos auf der Website Klang23',
-          linkAvailable: true,
-          link: 'https://www.klang-dasfestival.ch/',
-          where: 'Reformierte Kirche Wädenswil',
-          img: './assets/img/concerts/23/klang23_flyer.jpeg',
-          imgalt: 'Flyer Klang 23'
-        },
-        {
           title: 'Chornacht im Gaswerk',
           description: 'Mit Vocabular und dem Männerchor Schwyz',
           when: 'Freitag 1. September 2023, 20 Uhr',
@@ -62,8 +51,8 @@ createApp({
           img: './assets/img/concerts/23/templebar_600.jpg',
           imgalt: 'Foto Templebar'
         },
-        
-        
+
+
 
       ]
 
