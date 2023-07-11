@@ -8,17 +8,6 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Klang23 das Musikfestival',
-          description: 'Mit Esther Lenherr am Klavier.',
-          when: 'Samstag 17. Juni 2023, 14 Uhr',
-          costs: 'Mehr Infos auf der Website Klang23',
-          linkAvailable: true,
-          link: 'https://www.klang-dasfestival.ch/',
-          where: 'Reformierte Kirche Wädenswil',
-          img: './assets/img/concerts/23/klang23_flyer.jpeg',
-          imgalt: 'Flyer Klang 23'
-        },
-        {
           title: 'Chornacht im Gaswerk',
           description: 'Mit Vocabular und dem Männerchor Schwyz',
           when: 'Freitag 1. September 2023, 20 Uhr',
@@ -64,6 +53,18 @@ createApp({
         },
       ],
       pastconcerts: [
+        {
+          title: 'Klang23 das Musikfestival',
+          description: 'Mit Esther Lenherr am Klavier.',
+          when: 'Samstag 17. Juni 2023, 14 Uhr',
+          costs: 'Mehr Infos auf der Website Klang23',
+          linkAvailable: true,
+          link: 'https://www.klang-dasfestival.ch/',
+          where: 'Reformierte Kirche Wädenswil',
+          img: './assets/img/concerts/23/klang23_flyer.jpeg',
+          imgalt: 'Flyer Klang 23',
+          past: 'Test'
+        },
         {
           title: 'Kurzkonzerte Advents- und Weihnachtslieder',
           description: 'Am 18. Dezember 2022 sangen wir im Talkessel Schwyz an vier                   Orten Weihnachtslieder und stimmten auf die Festtage ein. Fotos folgen.',
