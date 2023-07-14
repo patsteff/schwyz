@@ -104,9 +104,9 @@ createApp({
           link: '',
           where: '',
           img: './assets/img/concerts/smaller/jazz_meets_folklore_600.jpeg',
-          imgalt: 'Jazz meets Folkore',
-          impressionen: false,
-          impressionenlink: '',
+          imgalt: 'Jazz meets Folklore',
+          impressionen: true,
+          impressionenlink: 'impressions.html#jazz22',
           past: 'Jazz meets Folklore, das Musikfestival im Herzen von Schwyz. Wir waren Teil des Veranstaltungsprogramms am 4. September 2022. Einmal begleitet von mit Andrea Ulrich, Gaby-Isabelle Näf und Monika Greenwald-Loher und einmal als Begleitung von Baba Shrimps.'
         },
         {
