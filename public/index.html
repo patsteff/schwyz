@@ -309,121 +309,12 @@
                 <p class="text-black">
                   {{pastconcert.past}}
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="singing22">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/singing_advent_kirche.jpg"
-                alt="konzertbild" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>Singing Advent 2022</h4>
-                <p class="text-black">
-                  Am 27. November 2022 fand nach langer Coronapause endlich
-                  wieder das Singing Advent statt. Zusammen mit einem
-                  Projektchor ad hoc, Peter Fröhlich an der Orgel und unter
-                  Leitung von Cristina Marugg füllten wir die ganze
-                  Kollegikirche in Schwyz und sangen Weihnachtslieder aus der
-                  ganzen Welt. Fotos folgen.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="jazz">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/jazz_meets_folklore_600.jpeg"
-                alt="konzertbild" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>dMädels am Jazz meets Folklore</h4>
-                <p class="text-black">
-                  Jazz meets Folklore, das Musikfestival im Herzen von Schwyz.
-                  Wir waren Teil des Veranstaltungsprogramms am 4. September
-                  2022. Einmal begleitet von mit Andrea Ulrich, Gaby-Isabelle
-                  Näf und Monika Greenwald-Loher und einmal als Begleitung von
-                  Baba Shrimps.
-                </p>
-
-                <a class="btn btn-primary" href="impressions.html#jazz22">Impressionen</a>
-              </div>
-            </div>
-          </div>
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="stoos">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/stoosbahn_600.jpeg"
-                alt="konzertbild" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>dMädels auf dem Stoos</h4>
-                <p class="">
-                  Wir durften am 27. August 2022 an verschiedenen Orten auf dem
-                  Stoos auftreten. Begleitet wurden wir von Andrea Ulrich am
-                  Akkordeon.
-                </p>
-                <a class="btn btn-primary" href="impressions.html#benefiz22">Impressionen</a>
-              </div>
-            </div>
-          </div>
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="benefiz">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/benefiz_hinten.jpg"
-                alt="konzertbild" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>Benefiz Konzert</h4>
-                <p class="">
-                  Am 25. Juni 2022 traten wir im Verenasaal in Ibach auf. Ein
-                  Konzert für alle Menschen auf der Flucht vor Krieg und Gewalt.
-                  Ein Konzert für die Liebe und die Hoffnung. dMädels zusammen
-                  mit Esther Lenherr am Klavier.
-                </p>
-                <a class="btn btn-primary" href="impressions.html#benefiz22">Impressionen</a>
-              </div>
-            </div>
-          </div>
-          <!-- Konzert -->
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="probe">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/oeffentliche_probe.JPG"
-                alt="probe" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>Öffentliche Probe</h4>
-                <p class="">
-                  Am 10. Juni 2022 fand unsere erste öffentliche Probe mit
-                  anschliessendem Apero statt. Singbegeisterte Besucher sangen
-                  am Freitagabend mit uns.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="kulturschock">
-            <div class="col-xl-5 col-lg-5">
-              <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/kulturschock2_600.JPG"
-                alt="konzertbild" />
-            </div>
-            <div class="col-xl-7 col-lg-7 px-3">
-              <div class="text-center w-100">
-                <h4>Kulturschock</h4>
-                <p class="">
-                  Unser erstes grösseres Konzert nach Corona war ein echtes
-                  Erlebnis. Am Freitag 3. Juni 2022 füllten wir zusammen mit dem
-                  Kulturschock Streichorchester das Gaswerk in Seewen.
-                </p>
-                <a class="btn btn-primary" href="impressions.html#kultur22">Impressionen</a>
+                <a v-if="pastconcert.impressionen" class="btn btn-primary"
+                  :href="pastconcert.impressionenlink">Impressionen</a>
               </div>
             </div>
           </div>
           <!-- Konzert 1 -->
-
           <div class="row gx-0 mb-5 mb-lg-5 align-items-center">
             <div class="col-xl-5 col-lg-5">
               <img class="w-100 img-fluid mb-3 mb-lg-0" src="assets/img/concerts/smaller/advent_600_400.jpg"
