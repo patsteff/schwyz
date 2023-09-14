@@ -8,24 +8,14 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Chornacht im Gaswerk',
-          description: 'Mit Vocabular und dem Männerchor Schwyz',
-          when: 'Freitag 1. September 2023, 20 Uhr',
-          costs: 'Tickets Website Gaswerk',
-          linkAvailable: true,
-          link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/nacht-der-choere/',
-          where: 'Gaswerk Seewen',
-          img: './assets/img/concerts/smaller/nachtchoere.jpg',
-          imgalt: 'Foto vom Kulturschock im Gaswerk'
-        },
-        {
           title: 'Muotitaler Alpchäsmärcht',
-          description: 'Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.',
+          description: 'Wir treten am Unterhaltungsabend des Muotitaler Alpchäsmärcht auf. Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.',
           when: 'Samstag 28. Oktober 2023 ab 20 Uhr',
           costs: 'Website Chäsmärcht',
+          additionalCosts: 'Eintritt frei, ',
           linkAvailable: true,
           link: 'https://www.alpkaesemarkt.ch/programm/',
-          where: 'Muotathal',
+          where: 'MZH Muotathal',
           img: './assets/img/concerts/smaller/muotathal.jpg',
           imgalt: 'Foto Käsemarkt'
         },
@@ -34,6 +24,7 @@ createApp({
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
           when: 'Samstag 13. April 2024',
           costs: 'Weitere Infos folgen. Ticketverkauf voraussichtlich ab Herbst 2023.',
+          additionalCosts: '',
           linkAvailable: false,
           link: '',
           where: 'Schuler Vinothek Seewen',
@@ -45,6 +36,7 @@ createApp({
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
           when: 'Freitag 19. April 2024',
           costs: 'Weitere Infos folgen. Ticketverkauf voraussichtlich ab Herbst 2023.',
+          additionalCosts: '',
           linkAvailable: false,
           link: '',
           where: 'Gaswerk Seewen',
@@ -53,6 +45,20 @@ createApp({
         },
       ],
       pastconcerts: [
+        {
+          title: 'Chornacht im Gaswerk',
+          description: 'Mit Vocabular und dem Männerchor Schwyz',
+          when: 'Freitag 1. September 2023, 20 Uhr',
+          costs: 'Tickets Website Gaswerk',
+          linkAvailable: true,
+          link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/nacht-der-choere/',
+          where: 'Gaswerk Seewen',
+          img: './assets/img/concerts/smaller/nachtchoere.jpg',
+          imgalt: 'Foto vom Kulturschock im Gaswerk',
+          impressionen: false,
+          impressionenlink: '',
+          past: 'Am Freitagabend 1. September konnten wir im vollen Gaswerk in Seewen auftreten. Zusammen mit dem Männerchor Schwyz und Vocabular aus Luzern. Esther Lenherr begleitete uns am Klavier.'
+        },
         {
           title: 'Klang23 das Musikfestival',
           description: 'Mit Esther Lenherr am Klavier.',
