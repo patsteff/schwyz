@@ -8,18 +8,6 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Muotitaler Alpchäsmärcht',
-          description: 'Wir treten am Unterhaltungsabend des Muotitaler Alpchäsmärcht auf. Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.',
-          when: 'Samstag 28. Oktober 2023 ab 20 Uhr',
-          costs: 'Website Chäsmärcht',
-          additionalCosts: 'Eintritt frei, ',
-          linkAvailable: true,
-          link: 'https://www.alpkaesemarkt.ch/programm/',
-          where: 'MZH Muotathal',
-          img: './assets/img/concerts/smaller/muotathal.jpg',
-          imgalt: 'Foto Käsemarkt'
-        },
-        {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch',
           description: 'Wir arbeiten aktuell intensiv am Programm für diesen Auftritt. Lassen Sie sich überraschen und merken Sie sich dieses Datum vor.',
           when: 'Samstag 13. April 2024',
@@ -45,6 +33,21 @@ createApp({
         },
       ],
       pastconcerts: [
+        {
+          title: 'Muotitaler Alpchäsmärcht',
+          description: 'Wir treten am Unterhaltungsabend des Muotitaler Alpchäsmärcht auf. Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.',
+          when: 'Samstag 28. Oktober 2023 ab 20 Uhr',
+          costs: 'Website Chäsmärcht',
+          additionalCosts: 'Eintritt frei, ',
+          linkAvailable: true,
+          link: 'https://www.alpkaesemarkt.ch/programm/',
+          where: 'MZH Muotathal',
+          img: './assets/img/concerts/smaller/muotathal.jpg',
+          imgalt: 'Foto Käsemarkt',
+          impressionen: false,
+          impressionenlink: '',
+          past: 'Am Samstagabend 28. Oktober 2023 durften wir im Rahmen des Unterhaltungsabend am Muotitaler Alpchäsmärcht auftreten. Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.'
+        },
         {
           title: 'Chornacht im Gaswerk',
           description: 'Mit Vocabular und dem Männerchor Schwyz',
