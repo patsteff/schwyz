@@ -1,93 +1,108 @@
 :root {
-    --darkgreen: #64a19d;
-    --brown: #8a746e;
-    --darkgrey: #555259;
-    --grey: #adb3a7;
-  }
+  /* --darkgreen: #64a19d; */
+  --darkgreen: #009E60;
+  --brown: #8a746e;
+  --darkgrey: #555259;
+  --grey: #adb3a7;
+}
+
+.html {
+  user-select: none;
+}
 
 .member {
-    position: relative;
-    width: 350px;
-    }
+  position: relative;
+  width: 350px;
+}
 
 
-  .memberimage {
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    overflow: hidden;
-    bottom: 0;
-    background-color: var(--darkgreen);
-    width: 100%;
-    transition: 0.5s ease;
-    height: 0;
-  }
+.memberimage {
+  width: 100%;
+  height: auto;
+}
 
-  .hovertext {
-    color: white;
-    position: absolute;
-    font-size: 2rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .member:hover .overlay {
-    height: 20%;
-  }
+.overlay {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  background-color: var(--darkgreen);
+  width: 100%;
+  transition: 0.5s ease;
+  height: 0;
+}
 
-  .btn-c {
-    width: 150px;
-  }
+.hovertext {
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .logo {
-    max-height: 300px;
-  }
+.member:hover .overlay {
+  height: 20%;
+}
 
-  .linkheader {
-    text-decoration: none !important; 
-  }
+.btn-c {
+  width: 150px;
+}
 
-  .text-red {
-    color: red;
-  }
+.logo {
+  max-height: 300px;
+}
 
-  .text-strikethrough {
-    text-decoration: line-through;
-    }
+.linkheader {
+  text-decoration: none !important;
+}
 
-    i {
-      color: #d17d94;
-    }
+.text-red {
+  color: red;
+}
 
+.text-strikethrough {
+  text-decoration: line-through;
+}
 
-  .responsive-img {  
-    display: flex;
-    justify-content: center;
-    width: 100%;  
-    height: auto; } 
+i {
+  color: var(--darkgreen);
+}
 
 
-  .verein a {
-    text-decoration: none;
-  }
+.responsive-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
 
-  /* The Modal (background) */
+
+.verein a {
+  text-decoration: none;
+}
+
+/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -116,10 +131,10 @@
 
 .modalbutton {
   background: none;
-	border: none;
+  border: none;
   color: #768d8f;
-	padding: 0;
-	cursor: pointer;
+  padding: 0;
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -137,8 +152,47 @@
 }
 
 @media (max-width: 800px) {
+
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   .youtube {
     width: 100%;
+  }
+}
+
+.normal-fade {
+  animation: fade 5s forwards;
+}
+
+.counter-fade {
+  animation: fade-counter 4s forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  2% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(1000px) scale(0.5) rotate(200deg);
+  }
+}
+
+@keyframes fade-counter {
+  0% {
+    opacity: 1;
+  }
+
+  2% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(1000px) scale(1) rotate(-300deg);
   }
 }
