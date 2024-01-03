@@ -8,27 +8,27 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch',
-          description: 'Ein Konzert, das Sie musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Freuen Sie sich auf mitreissende Unterhaltung mit Klängen und Melodien von den britischen Inseln.',
+          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
+          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
           when: 'Samstag 13. April 2024',
           costs: 'Weitere Infos folgen. Inklusive Apero und 3 Gänge Menü. Ticketverkauf voraussichtlich ab Januar 2024.',
           additionalCosts: '',
           linkAvailable: false,
           link: '',
           where: 'Schuler Vinothek Seewen',
-          img: './assets/img/concerts/23/templebar_600.jpg',
+          img: './assets/img/concerts/24/whisky_dinner.jpg',
           imgalt: 'Foto Templebar'
         },
         {
-          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch',
-          description: 'Ein Konzert, das Sie musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Freuen Sie sich auf mitreissende Unterhaltung mit Klängen und Melodien von den britischen Inseln.',
+          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Party)',
+          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
           when: 'Freitag 19. April 2024, 20:00 Uhr (Türöffnung 19:00 Uhr)',
           costs: 'Tickets Vorverkauf',
           additionalCosts: 'Vorverkauf CHF 25.- / Abendkasse CHF 30.-',
           linkAvailable: true,
           link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/whiskey-on-ice-ch/',
           where: 'Gaswerk Seewen',
-          img: './assets/img/concerts/23/templebar_600.jpg',
+          img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar'
         },
       ],
