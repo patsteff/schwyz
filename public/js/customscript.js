@@ -74,9 +74,6 @@ function createShamrock(x, y, shape, animation, fill) {
 //   console.log(svgs);
 // }
 
-
-
-
 const { createApp } = Vue
 
 createApp({
