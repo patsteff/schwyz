@@ -1,20 +1,14 @@
 :root {
-  /* --darkgreen: #64a19d; */
-  --darkgreen: #009E60;
+  --darkgreen: #64a19d;
   --brown: #8a746e;
   --darkgrey: #555259;
   --grey: #adb3a7;
-}
-
-.html {
-  user-select: none;
 }
 
 .member {
   position: relative;
   width: 350px;
 }
-
 
 .memberimage {
   width: 100%;
