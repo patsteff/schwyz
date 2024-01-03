@@ -153,6 +153,7 @@ i {
   }
 }
 
+
 .normal-fade {
   animation: fade 5s forwards;
 }
@@ -160,6 +161,7 @@ i {
 .counter-fade {
   animation: fade-counter 4s forwards;
 }
+
 
 @keyframes fade {
   0% {
@@ -172,7 +174,7 @@ i {
 
   100% {
     opacity: 0;
-    transform: translateY(1000px) scale(0.5) rotate(200deg);
+    transform: translateY(500px) scale(0.5) rotate(200deg);
   }
 }
 
@@ -187,6 +189,6 @@ i {
 
   100% {
     opacity: 0;
-    transform: translateY(1000px) scale(1) rotate(-300deg);
+    transform: translateY(500px) scale(1) rotate(-300deg);
   }
 }
