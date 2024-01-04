@@ -17,7 +17,9 @@ createApp({
           link: '',
           where: 'Schuler Vinothek Seewen',
           img: './assets/img/concerts/24/whisky_dinner.jpg',
-          imgalt: 'Foto Templebar'
+          imgalt: 'Foto Templebar',
+          flyerAvailable: true,
+          flyer: './assets/pdf/whisky_flyer_schuler_compressed.pdf'
         },
         {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Party)',
@@ -29,7 +31,9 @@ createApp({
           link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/whiskey-on-ice-ch/',
           where: 'Gaswerk Seewen',
           img: './assets/img/concerts/24/whisky_party.jpg',
-          imgalt: 'Foto Templebar'
+          imgalt: 'Foto Templebar',
+          flyerAvailable: true,
+          flyer: './assets/pdf/whisky_flyer_gaswerk_compressed.pdf'
         },
       ],
       pastconcerts: [
