@@ -19,7 +19,7 @@ createApp({
           img: './assets/img/concerts/24/whisky_dinner.jpg',
           imgalt: 'Foto Templebar',
           flyerAvailable: true,
-          flyer: './assets/pdf/whisky_flyer_schuler_compressed.pdf'
+          flyer: './assets/pdf/whiskey_flyer_schuler_compressed.pdf'
         },
         {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Party)',
@@ -33,7 +33,7 @@ createApp({
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
           flyerAvailable: true,
-          flyer: './assets/pdf/whisky_flyer_gaswerk_compressed.pdf'
+          flyer: './assets/pdf/whiskey_flyer_gaswerk_compressed.pdf'
         },
       ],
       pastconcerts: [
