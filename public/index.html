@@ -177,8 +177,10 @@
                       <i class="ph-ticket"></i>
                     </div>
                     <div class="col-sm-9 col-md-8 text-start">
-                      <div v-if="concert.linkAvailable"><span>{{concert.additionalCosts}}</span><a :href="concert.link"
-                          target="_blank">{{concert.costs}}</a></div>
+                      <div v-if="concert.linkAvailable">
+                        <div>{{concert.additionalCosts}}</div><a :href="concert.link"
+                          target="_blank">{{concert.costs}}</a>
+                      </div>
                       <p class="mb-0" v-else>{{concert.costs}}</p>
                     </div>
                   </div>
