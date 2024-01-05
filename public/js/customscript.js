@@ -102,7 +102,7 @@ createApp({
           costs: 'Tickets Vorverkauf',
           additionalCosts: 'Vorverkauf CHF 25.- / Abendkasse CHF 30.-',
           linkAvailable: true,
-          link: 'https://www.gaswerk-eventbar.ch/veranstaltungen/whiskey-on-ice-ch/',
+          link: 'https://eventfrog.ch/de/p/konzert/chor/whiskey-on-ice-ch-7148692343570244530.html',
           where: 'Gaswerk Seewen',
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
