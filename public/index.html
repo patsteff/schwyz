@@ -160,7 +160,10 @@
               <div class="text-center w-100">
                 <h4>{{concert.title}}</h4>
                 <p class="text-black-50">{{concert.description}}
-                  <a v-if="concert.flyerAvailable" :href="concert.flyer" target="_blank">Flyer</a>
+                <div class="text-center w-100 text-white">
+                  <a class="btn btn-primary" v-if="concert.flyerAvailable" :href="concert.flyer"
+                    target="_blank">Flyer</a>
+                </div>
                 </p>
                 <div class="d-flex flex-column">
                   <div class="w-100 d-flex">
