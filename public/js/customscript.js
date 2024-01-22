@@ -92,7 +92,7 @@ createApp({
           where: 'Schuler Vinothek Seewen',
           img: './assets/img/concerts/24/whisky_dinner.jpg',
           imgalt: 'Foto Templebar',
-          flyerAvailable: true,
+          flyerAvailable: false,
           flyer: './assets/pdf/whiskey_flyer_schuler_compressed.pdf'
         },
         {
@@ -106,7 +106,7 @@ createApp({
           where: 'Gaswerk Seewen',
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
-          flyerAvailable: false,
+          flyerAvailable: true,
           flyer: './assets/pdf/whiskey_flyer_gaswerk_compressed.pdf'
         },
       ],
