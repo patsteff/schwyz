@@ -83,7 +83,7 @@ createApp({
       concerts: [
         {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
-          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
+          description: 'Ein Konzert, das dich musikalisch und kulinarisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
           when: 'Samstag 13. April 2024',
           costs: 'Weitere Infos folgen. Inklusive Apero und 3 Gänge Menü. Ticketverkauf voraussichtlich ab Januar 2024.',
           additionalCosts: '',
@@ -106,7 +106,7 @@ createApp({
           where: 'Gaswerk Seewen',
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
-          flyerAvailable: true,
+          flyerAvailable: false,
           flyer: './assets/pdf/whiskey_flyer_gaswerk_compressed.pdf'
         },
       ],
