@@ -107,7 +107,7 @@ createApp({
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
           flyerAvailable: true,
-          flyer: './assets/pdf/whiskey_flyer_gaswerk_compressed.pdf'
+          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf'
         },
       ],
       pastconcerts: [
