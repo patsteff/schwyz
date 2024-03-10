@@ -9,9 +9,9 @@ createApp({
       concerts: [
         {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
-          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
+          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Inklusive Apero und 3 Gänge Menü.',
           when: 'Samstag 13. April 2024',
-          costs: 'Weitere Infos folgen. Inklusive Apero und 3 Gänge Menü. Ticketverkauf voraussichtlich ab Januar 2024.',
+          costs: 'AUSVERKAUFT.',
           additionalCosts: '',
           linkAvailable: false,
           link: '',
