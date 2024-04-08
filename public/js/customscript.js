@@ -85,7 +85,7 @@ createApp({
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
           description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Inklusive Apero und 3 Gänge Menü.',
           when: 'Samstag 13. April 2024',
-          costs: 'AUSVERKAUFT.',
+          costs: 'AUSVERKAUFT',
           additionalCosts: '',
           linkAvailable: false,
           link: '',
@@ -97,7 +97,7 @@ createApp({
         },
         {
           title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Party)',
-          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt.',
+          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. SPECIAL GUESTS: THE CLAN WITH PIPES AND DRUMS.',
           when: 'Freitag 19. April 2024, 20:00 Uhr (Türöffnung 19:00 Uhr)',
           costs: 'Tickets Vorverkauf',
           additionalCosts: 'Vorverkauf CHF 25.- / Abendkasse CHF 30.-',
