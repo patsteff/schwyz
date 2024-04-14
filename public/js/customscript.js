@@ -82,7 +82,7 @@ createApp({
       message: 'Hello Vue!',
       concerts: [
         {
-          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
+          title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
           description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Inklusive Apero und 3 Gänge Menü.',
           when: 'Samstag 13. April 2024',
           costs: 'AUSVERKAUFT',
@@ -96,7 +96,7 @@ createApp({
           flyer: './assets/pdf/whiskey_flyer_schuler_compressed.pdf'
         },
         {
-          title: 'Whisky On Ice - schottisch, irisch, keltisch, englisch (Party)',
+          title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Party)',
           description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. SPECIAL GUESTS: THE CLAN WITH PIPES AND DRUMS.',
           when: 'Freitag 19. April 2024, 20:00 Uhr (Türöffnung 19:00 Uhr)',
           costs: 'Tickets Vorverkauf',
