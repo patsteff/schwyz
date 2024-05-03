@@ -152,6 +152,7 @@
         <div class="row px-4 px-lg-5">
           <h2 class="mt-5">Konzerte</h2>
           <!--Konzert 2-->
+          <p>{{message}}</p>
           <div class="row gx-0 mb-5 mb-lg-5 align-items-center" v-for="concert in concerts">
             <div class="col-xl-5 col-lg-5">
               <img class="w-100 img-fluid mb-3 mb-lg-0" :src="concert.img" :alt="concert.imgalt" />
@@ -310,7 +311,6 @@
         </div>
       </div>
     </section>
-    <!-- contact-->
     <section id="contact">
       <div class="container px-4 px-lg-5 mt-2">
         <div class="row gx-4 gx-lg-5">
@@ -342,7 +342,6 @@
       <div class="container">
         <div class="row px-4 px-lg-5">
           <h2 class="mt-5">Vergangene Konzerte</h2>
-          <!-- Konzert 1 -->
           <div v-for="pastconcert in pastconcerts" class="row gx-0 mb-5 mb-lg-5 align-items-center"
             id="weihnachtsklang">
             <div class="col-xl-5 col-lg-5">
@@ -368,31 +367,17 @@
             </div>
           </div>
         </div>
-        <!-- Static -->
-
       </div>
-
-      <!-- Konzert 4 -->
-
   </div>
-
-  <!-- Konzert 5 -->
-
   </div>
-
-  <!-- liste   -->
-
-
   </div>
   </div>
   </section>
   </div>
-  <!-- Medien/updates -->
   <section id="updates" class="bg-brown">
     <div class="container">
       <div class="row px-4 px-lg-5">
         <h2 class="mt-5">Medien</h2>
-        <!-- Konzert 1 -->
         <div class="row gx-0 mb-5 mb-lg-5 align-items-center" id="bote0622">
           <div class="col-xl-7 col-lg-7 px-3">
             <div class="text-center w-100">

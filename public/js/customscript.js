@@ -1,5 +1,3 @@
-console.log("test");
-
 document.addEventListener('click', showShamrock);
 
 function showShamrock(event) {
@@ -79,22 +77,10 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello Vue!',
+      message: 'Es sind keine weiteren Konzerte im 2024 geplant.',
       concerts: [
-        {
-          title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
-          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Inklusive Apero und 3 Gänge Menü.',
-          when: 'Samstag 13. April 2024',
-          costs: 'AUSVERKAUFT',
-          additionalCosts: '',
-          linkAvailable: false,
-          link: '',
-          where: 'Schuler Vinothek Seewen',
-          img: './assets/img/concerts/24/whisky_dinner.jpg',
-          imgalt: 'Foto Templebar',
-          flyerAvailable: false,
-          flyer: './assets/pdf/whiskey_flyer_schuler_compressed.pdf'
-        },
+      ],
+      pastconcerts: [
         {
           title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Party)',
           description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. SPECIAL GUESTS: THE CLAN WITH PIPES AND DRUMS.',
@@ -107,10 +93,28 @@ createApp({
           img: './assets/img/concerts/24/whisky_party.jpg',
           imgalt: 'Foto Templebar',
           flyerAvailable: true,
-          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf'
+          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
+          impressionen: false,
+          impressionenlink: '',
+          past: 'Am Freitagabend 19. April 2024 traten wir im Gaswerk Seewen auf. Mit unserem Konzert "Whiskey On Ice" boten wir ein Erlebnis, welches unser Publikum musikalisch und kulinarisch auf die grünen Inseln entführte. Wir wurden instrumental begleitet von Andrea Ulrich am Akkordeon, Maria Gehrig an der Geige, Theo Känzig an der Gitarre, Micha Nussbaumer Perkussion und Andrea Zeindler an den Whistles. Special Guests war "the clan with pipes and drums".'
         },
-      ],
-      pastconcerts: [
+        {
+          title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Dinner)',
+          description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. Inklusive Apero und 3 Gänge Menü.',
+          when: 'Samstag 13. April 2024',
+          costs: 'AUSVERKAUFT',
+          additionalCosts: '',
+          linkAvailable: false,
+          link: '',
+          where: 'Schuler Vinothek Seewen',
+          img: './assets/img/concerts/24/whisky_dinner.jpg',
+          imgalt: 'Foto Templebar',
+          flyerAvailable: false,
+          flyer: './assets/pdf/whiskey_flyer_schuler_compressed.pdf',
+          impressionen: false,
+          impressionenlink: '',
+          past: 'Am Samstagabend 13. April 2024 traten wir in der Schuler Vinothek Seewen auf. Mit unserem Konzert "Whiskey On Ice" boten wir ein Erlebnis, welches unser Publikum musikalisch und kulinarisch auf die grünen Inseln entführte. Wir wurden instrumental begleitet von Andrea Ulrich am Akkordeon, Maria Gehrig an der Geige, Theo Känzig an der Gitarre, Micha Nussbaumer Perkussion und Andrea Zeindler an den Whistles.'
+        },
         {
           title: 'Muotitaler Alpchäsmärcht',
           description: 'Wir treten am Unterhaltungsabend des Muotitaler Alpchäsmärcht auf. Mit Andrea Ulrich am Akkordeon, Gaby Näf am Klavier und Monika Greenwald am Cello.',
