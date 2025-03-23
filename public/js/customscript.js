@@ -79,6 +79,40 @@ createApp({
     return {
       message: 'Es sind keine weiteren Konzerte im 2024 geplant.',
       concerts: [
+        {
+          title: 'Whiskey On Ice',
+          description: 'Weitere Infos folgen.',
+          when: 'Samstag, 30. August 2025, 20:00 Uhr',
+          costs: 'Türkollekte',
+          additionalCosts: '',
+          linkAvailable: false,
+          link: 'https://eventfrog.ch/de/p/konzert/chor/whiskey-on-ice-ch-7148692343570244530.html',
+          where: 'Schuler Wein, Franzosenstrasse 14, 6423 Seewen SZ',
+          img: './assets/img/concerts/23/templebar_600.jpg',
+          imgalt: 'Foto Templebar',
+          flyerAvailable: false,
+          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
+          impressionen: false,
+          impressionenlink: '',
+          past: ''
+        },
+        {
+          title: 'Whiskey On Ice',
+          description: 'Weitere Infos folgen.',
+          when: 'Sonntag, 31. August 2025, 17:00 Uhr',
+          costs: 'Türkollekte',
+          additionalCosts: '',
+          linkAvailable: false,
+          link: 'https://eventfrog.ch/de/p/konzert/chor/whiskey-on-ice-ch-7148692343570244530.html',
+          where: 'Kult-Turm, Franzosenstrasse 72, 6423 Seewen SZ',
+          img: './assets/img/concerts/23/templebar_600.jpg',
+          imgalt: 'Foto Templebar',
+          flyerAvailable: false,
+          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
+          impressionen: false,
+          impressionenlink: '',
+          past: ''
+        },
       ],
       pastconcerts: [
         {
