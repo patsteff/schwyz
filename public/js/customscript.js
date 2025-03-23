@@ -77,7 +77,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Es sind keine weiteren Konzerte im 2024 geplant.',
+      message: 'Hier finden Sie unsere anstehenden Auftritte',
       concerts: [
         {
           title: 'Whiskey On Ice',
