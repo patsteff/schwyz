@@ -81,8 +81,8 @@ createApp({
       concerts: [
         {
           title: 'Whiskey On Ice',
-          description: 'Weitere Infos folgen.',
-          when: 'Samstag, 30. August 2025, 20:00 Uhr',
+          description: 'Weitere Infos siehe Insta.',
+          when: 'Samstag, 30. August 2025, 19:00 Uhr',
           costs: 'Türkollekte',
           additionalCosts: '',
           linkAvailable: false,
@@ -98,7 +98,7 @@ createApp({
         },
         {
           title: 'Whiskey On Ice',
-          description: 'Weitere Infos folgen.',
+          description: 'Weitere Infos auf Insta.',
           when: 'Sonntag, 31. August 2025, 17:00 Uhr',
           costs: 'Türkollekte',
           additionalCosts: '',
