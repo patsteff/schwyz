@@ -77,25 +77,10 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hier finden Sie unsere anstehenden Auftritte',
+      message: 'Aktuell sind keine Auftritte geplant.',
       concerts: [
-        {
-          title: 'Whiskey On Ice',
-          description: 'Nach dem grossen Erfolg unseres Whisky-Programms im Jahr 2024 freuen wir uns sehr, dieses besondere Konzertformat erneut auf die Bühne zu bringen. Musikalische Leitung: Cristina Marugg, Konzert mit Band. Dies sind unsere letzten Auftritte mit unserer langjährigen Dirigentin Cristina Marugg. Vielen herzlichen Dank für den unermüdlichen Einsatz unserer Dirigentin!',
-          when: 'Samstag, 30. August 2025, 19:00 Uhr',
-          costs: 'Tickets Eventfrog',
-          additionalCosts: '',
-          linkAvailable: true,
-          link: 'https://eventfrog.ch/de/p/gruppen/d-maedels-whiskey-on-ice-7343959860784928623.html',
-          where: 'Schuler Wein, Franzosenstrasse 14, 6423 Seewen SZ',
-          img: './assets/img/concerts/23/flyer_zugeschnitten.jpg',
-          imgalt: 'Foto Templebar',
-          flyerAvailable: false,
-          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
-          impressionen: false,
-          impressionenlink: '',
-          past: ''
-        },
+      ],
+      pastconcerts: [
         {
           title: 'Whiskey On Ice',
           description: 'Nach dem grossen Erfolg unseres Whisky-Programms im Jahr 2024 freuen wir uns sehr, dieses besondere Konzertformat erneut auf die Bühne zu bringen. Musikalische Leitung: Cristina Marugg, Konzert mit Band. Dies sind unsere letzten Auftritte mit unserer langjährigen Dirigentin Cristina Marugg. Vielen herzlichen Dank für den unermüdlichen Einsatz unserer Dirigentin!',
@@ -111,10 +96,26 @@ createApp({
           flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
           impressionen: false,
           impressionenlink: '',
-          past: ''
+          past: 'Am 31. August 2025 traten wir erneut mit unserem Konzertprogramm "Whiskey On Ice" im Kult-Turm in Seewen auf. Musikalische Leitung: Cristina Marugg, Konzert mit Band. Dies war unser letzter Auftritt mit unserer langjährigen Dirigentin Cristina Marugg. Vielen herzlichen Dank für deinen unermüdlichen Einsatz, Cristina!',
+          when: 'Sonntag, 31. August 2025, 17:00 Uhr'
         },
-      ],
-      pastconcerts: [
+        {
+          title: 'Whiskey On Ice',
+          description: 'Nach dem grossen Erfolg unseres Whiskey-Programms im Jahr 2024 freuen wir uns sehr, dieses besondere Konzertformat erneut auf die Bühne zu bringen. Musikalische Leitung: Cristina Marugg, Konzert mit Band. Dies war unser letzter Auftritt mit unserer langjährigen Dirigentin Cristina Marugg. Vielen herzlichen Dank für den unermüdlichen Einsatz unserer Dirigentin!',
+          when: 'Samstag, 30. August 2025, 19:00 Uhr',
+          costs: 'Tickets Eventfrog',
+          additionalCosts: '',
+          linkAvailable: true,
+          link: 'https://eventfrog.ch/de/p/gruppen/d-maedels-whiskey-on-ice-7343959860784928623.html',
+          where: 'Schuler Wein, Franzosenstrasse 14, 6423 Seewen SZ',
+          img: './assets/img/concerts/23/flyer_zugeschnitten.jpg',
+          imgalt: 'Foto Templebar',
+          flyerAvailable: false,
+          flyer: './assets/pdf/whisky_gaswerk2_compressed.pdf',
+          impressionen: false,
+          impressionenlink: '',
+          past: 'Am 30. August 2025 traten wir erneut mit unserem Konzertprogramm "Whiskey On Ice" in der Lokalität vom Schuler Wein in Seewen auf. Musikalische Leitung: Cristina Marugg, Konzert mit Band.'
+        },
         {
           title: 'Whiskey On Ice - schottisch, irisch, keltisch, englisch (Party)',
           description: 'Ein Konzert, das dich musikalisch in die atemberaubende Landschaft der grünen Inseln und der schottischen Highlands entführt. SPECIAL GUESTS: THE CLAN WITH PIPES AND DRUMS.',
