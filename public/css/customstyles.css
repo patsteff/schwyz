@@ -70,6 +70,12 @@ i {
   height: auto;
 }
 
+.bg-chorleitung {
+  background-color: #eef5f4;
+  border-top: 4px solid var(--darkgreen);
+  border-bottom: 4px solid var(--darkgreen);
+}
+
 
 .verein a {
   text-decoration: none;
